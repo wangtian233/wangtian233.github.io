@@ -56,7 +56,7 @@
     <header id="header" class="inner">
         <a href="/" class="profilepic">
             
-            <img lazy-src="/img/love.gif" class="js-avatar">
+            <img lazy-src="/img/psb.png" class="js-avatar">
             
         </a>
 
@@ -181,7 +181,7 @@
         <header id="header" class="inner">
             <a href="/" class="profilepic">
                 
-                    <img lazy-src="/img/love.gif" class="js-avatar">
+                    <img lazy-src="/img/psb.png" class="js-avatar">
                 
             </a>
             <hgroup>
@@ -429,8 +429,8 @@
 
     <script>
         $(document).ready(function() {
-            var backgroundnum = 14;
-            var backgroundimg = "url(/background/bg-x.jpg)".replace(/x/gi, Math.ceil(Math.random() * backgroundnum));
+            var backgroundnum = 5;
+            var backgroundimg = "url(/background/bg-" + backgroundnum +".jpg)";
             $("#mobile-nav").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
             $(".left-col").css({"background-image": backgroundimg,"background-size": "cover","background-position": "center"});
         })
